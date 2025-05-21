@@ -1,11 +1,12 @@
 import "./App.css";
 import MovieCard from "./components/MovieCard";
+import Home from "./pages/Home";
 
 function App() {
+
   return (
     <>
-      {/* parent element : one must be returned */}
-      <MovieCard movie={{title: "Daniel's Film", release_date: "2025"}}/>
+    <Home />
     </>
   );
 }
